@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: client-pod
-          image: omarbenabdejlil/mern-front:latest
+          image: omarbenabdejlil/client-deploy:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
